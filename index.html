@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <style>
+       @import url('https://fonts.cdnfonts.com/css/malgun-gothic-boot');
+       body{
+        font-family: 'Meiryo Boot', sans-serif;
+       }
+    </style> -->
+  </head>
+  <body style="width: 100%; display: flex; align-items: center; justify-content: center;">
+    <div
+      style="
+        max-width: 793px;
+        height: 1122px;
+        padding: 37px;
+        box-sizing: border-box;
+        display: flex;
+      "
+    >
+      <div
+        style="
+          border: 1.5px solid black;
+          width: 720px;
+          height: 1022px;
+          position: relative;
+          margin: 0 auto;
+        "
+      >
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 718px;
+            height: 37px;
+            justify-content: center;
+            align-items: center;
+            border-right: 0.5px solid;
+            border-bottom: 0.5px solid;
+            border-left: 0 solid;
+            border-top: 0 solid;
+            font-size: 10px;
+            text-decoration: underline; /* style */
+            display: flex;
+          "
+        >
+          대기시료채취기록지
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 37px; /* position x 0mm*/
+            left: 0; /* position y 0mm*/
+            width: 75px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+          상호(업체명)
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 37px; /* position x 0mm*/
+            left: 75px; /* position y 0mm*/
+            width: 283px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+          companyName
+        </div>
+        
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 37px; /* position x 0mm*/
+            left: 359px; /* position y 0mm*/
+            width: 75px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+          배출시설
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 37px; /* position x 0mm*/
+            left: 434px; /* position y 0mm*/
+            width: 283px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        emissionName
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 56px; /* position x 0mm*/
+            left: 0; /* position y 0mm*/
+            width: 75px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        소재지(주소)
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 56px; /* position x 0mm*/
+            left: 75px; /* position y 0mm*/
+            width: 283px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        Address
+        </div>
+         
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 56px; /* position x 0mm*/
+            left: 359px; /* position y 0mm*/
+            width: 75px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        방지시설
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 56px; /* position x 0mm*/
+            left: 434px; /* position y 0mm*/
+            width: 37px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        facilityNumber
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 56px; /* position x 0mm*/
+            left: 472px; /* position y 0mm*/
+            width: 151px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        preventionName
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 56px; /* position x 0mm*/
+            left: 623px; /* position y 0mm*/
+            width: 94px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        preventionValueUnit
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 75px; /* position x 0mm*/
+            left: 0; /* position y 0mm*/
+            width: 75px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        주생산품
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 75px; /* position x 0mm*/
+            left: 75px; /* position y 0mm*/
+            width: 283px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        products
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 75px; /* position x 0mm*/
+            left: 359px; /* position y 0mm*/
+            width: 75px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        시설종별
+        </div>
+        
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 75px; /* position x 0mm*/
+            left: 434px; /* position y 0mm*/
+            width: 113px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        facilityType
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 75px; /* position x 0mm*/
+            left: 548px; /* position y 0mm*/
+            width: 75px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        사업장종별
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 75px; /* position x 0mm*/
+            left: 623px; /* position y 0mm*/
+            width: 94px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        businessType
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 94px; /* position x 0mm*/
+            left: 0; /* position y 0mm*/
+            width: 75px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        대표자
+        </div>
+       
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 94px; /* position x 0mm*/
+            left: 75px; /* position y 0mm*/
+            width: 113px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        ceoName
+        </div>
+
+        <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 94px; /* position x 0mm*/
+            left: 188px; /* position y 0mm*/
+            width: 113px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        환경기술인
+        </div>
+
+        <div
+        style="
+          position: absolute;
+          display: flex;
+          top: 94px; /* position x 0mm*/
+          left: 264px; /* position y 0mm*/
+          width: 94px; /* position w 100mm*/
+          height: 18px; /* position h 5mm*/
+          justify-content: center; /* viewStyle alignH  center*/
+          align-items: center; /* viewStyle alignV  center*/
+          border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+          border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+          border-left: 0px solid; /* viewStyle  border left 0px*/
+          border-top: 0px solid; /* viewStyle  border top 0px*/
+          font-size: 5px; /* viewStyle  textSize 5px*/
+        "
+      >
+      xcxcxc
+      </div>
+
+      <div
+      style="
+        position: absolute;
+        display: flex;
+        top: 94px; /* position x 0mm*/
+        left: 359px; /* position y 0mm*/
+        width: 75px; /* position w 100mm*/
+        height: 18px; /* position h 5mm*/
+        justify-content: center; /* viewStyle alignH  center*/
+        align-items: center; /* viewStyle alignV  center*/
+        border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+        border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+        border-left: 0px solid; /* viewStyle  border left 0px*/
+        border-top: 0px solid; /* viewStyle  border top 0px*/
+        font-size: 5px; /* viewStyle  textSize 5px*/
+      "
+    >
+    측정용도
+    </div>
+
+    <div
+      style="
+        position: absolute;
+        display: flex;
+        top: 94px; /* position x 0mm*/
+        left: 434px; /* position y 0mm*/
+        width: 283px; /* position w 100mm*/
+        height: 18px; /* position h 5mm*/
+        justify-content: center; /* viewStyle alignH  center*/
+        align-items: center; /* viewStyle alignV  center*/
+        border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+        border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+        border-left: 0px solid; /* viewStyle  border left 0px*/
+        border-top: 0px solid; /* viewStyle  border top 0px*/
+        font-size: 5px; /* viewStyle  textSize 5px*/
+      "
+    >
+    inspectionPurpose
+    </div>
+
+    <div
+      style="
+        position: absolute;
+        display: flex;
+        top: 113px; /* position x 0mm*/
+        left: 0; /* position y 0mm*/
+        width: 75px; /* position w 100mm*/
+        height: 37px; /* position h 5mm*/
+        justify-content: center; /* viewStyle alignH  center*/
+        align-items: center; /* viewStyle alignV  center*/
+        border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+        border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+        border-left: 0px solid; /* viewStyle  border left 0px*/
+        border-top: 0px solid; /* viewStyle  border top 0px*/
+        font-size: 5px; /* viewStyle  textSize 5px*/
+      "
+    >
+    전체 측정 항목
+    </div>
+
+    <div
+      style="
+        position: absolute;
+        display: flex;
+        top: 113px; /* position x 0mm*/
+        left: 75px; /* position y 0mm*/
+        width: 642px; /* position w 100mm*/
+        height: 37px; /* position h 5mm*/
+        justify-content: center; /* viewStyle alignH  center*/
+        align-items: center; /* viewStyle alignV  center*/
+        border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+        border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+        border-left: 0px solid; /* viewStyle  border left 0px*/
+        border-top: 0px solid; /* viewStyle  border top 0px*/
+        font-size: 5px; /* viewStyle  textSize 5px*/
+      "
+    >
+    pollutantNameList
+    </div>
+
+    <div
+      style="
+        position: absolute;
+        display: flex;
+        top: 151px; /* position x 0mm*/
+        left: 0; /* position y 0mm*/
+        width: 718px; /* position w 100mm*/
+        height: 18px; /* position h 5mm*/
+        justify-content: center; /* viewStyle alignH  center*/
+        align-items: center; /* viewStyle alignV  center*/
+        border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+        border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+        border-left: 0px solid; /* viewStyle  border left 0px*/
+        border-top: 0px solid; /* viewStyle  border top 0px*/
+        font-size: 5px; /* viewStyle  textSize 5px*/
+      "
+    >
+    1. 시료채취
+    </div>
+
+
+    <div
+      style="
+        position: absolute;
+        display: flex;
+        top: 170px; /* position x 0mm*/
+        left: 0; /* position y 0mm*/
+        width: 75px; /* position w 100mm*/
+        height: 18px; /* position h 5mm*/
+        justify-content: center; /* viewStyle alignH  center*/
+        align-items: center; /* viewStyle alignV  center*/
+        border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+        border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+        border-left: 0px solid; /* viewStyle  border left 0px*/
+        border-top: 0px solid; /* viewStyle  border top 0px*/
+        font-size: 5px; /* viewStyle  textSize 5px*/
+      "
+    >
+    날짜
+    </div>
+
+   
+
+    <div
+      style="
+        position: absolute;
+        display: flex;
+        top: 170px; /* position x 0mm*/
+        left: 76px; /* position y 0mm*/
+        width: 75px; /* position w 100mm*/
+        height: 18px; /* position h 5mm*/
+        justify-content: center; /* viewStyle alignH  center*/
+        align-items: center; /* viewStyle alignV  center*/
+        border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+        border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+        border-left: 0px solid; /* viewStyle  border left 0px*/
+        border-top: 0px solid; /* viewStyle  border top 0px*/
+        font-size: 5px; /* viewStyle  textSize 5px*/
+      "
+    >
+    지점
+    </div>
+
+    <div
+      style="
+        position: absolute;
+        display: flex;
+        top: 170px; /* position x 0mm*/
+        left: 151px; /* position y 0mm*/
+        width: 94px; /* position w 100mm*/
+        height: 18px; /* position h 5mm*/
+        justify-content: center; /* viewStyle alignH  center*/
+        align-items: center; /* viewStyle alignV  center*/
+        border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+        border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+        border-left: 0px solid; /* viewStyle  border left 0px*/
+        border-top: 0px solid; /* viewStyle  border top 0px*/
+        font-size: 5px; /* viewStyle  textSize 5px*/
+      "
+    >
+    시간
+    </div>
+
+    <div
+      style="
+        position: absolute;
+        display: flex;
+        top: 170px; /* position x 0mm*/
+        left: 246px; /* position y 0mm*/
+        width: 75px; /* position w 100mm*/
+        height: 18px; /* position h 5mm*/
+        justify-content: center; /* viewStyle alignH  center*/
+        align-items: center; /* viewStyle alignV  center*/
+        border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+        border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+        border-left: 0px solid; /* viewStyle  border left 0px*/
+        border-top: 0px solid; /* viewStyle  border top 0px*/
+        font-size: 5px; /* viewStyle  textSize 5px*/
+      "
+    >
+    현장기상
+    </div>
+
+
+
+    <div
+      style="
+        position: absolute;
+        display: flex;
+        top: 170px; /* position x 0mm*/
+        left: 322px; /* position y 0mm*/
+        width: 70px; /* position w 100mm*/
+        height: 18px; /* position h 5mm*/
+        justify-content: center; /* viewStyle alignH  center*/
+        align-items: center; /* viewStyle alignV  center*/
+        border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+        border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+        border-left: 0px solid; /* viewStyle  border left 0px*/
+        border-top: 0px solid; /* viewStyle  border top 0px*/
+        font-size: 5px; /* viewStyle  textSize 5px*/
+      "
+    >
+    기온
+    </div>
+
+
+    <div
+      style="
+        position: absolute;
+        display: flex;
+        top: 170px; /* position x 0mm*/
+        left: 397px; /* position y 0mm*/
+        width: 94px; /* position w 100mm*/
+        height: 18px; /* position h 5mm*/
+        justify-content: center; /* viewStyle alignH  center*/
+        align-items: center; /* viewStyle alignV  center*/
+        border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+        border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+        border-left: 0px solid; /* viewStyle  border left 0px*/
+        border-top: 0px solid; /* viewStyle  border top 0px*/
+        font-size: 5px; /* viewStyle  textSize 5px*/
+      "
+    >
+    습도
+    </div>
+
+    <div
+      style="
+        position: absolute;
+        display: flex;
+        top: 170px; /* position x 0mm*/
+        left: 492px; /* position y 0mm*/
+        width: 94px; /* position w 100mm*/
+        height: 18px; /* position h 5mm*/
+        justify-content: center; /* viewStyle alignH  center*/
+        align-items: center; /* viewStyle alignV  center*/
+        border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+        border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+        border-left: 0px solid; /* viewStyle  border left 0px*/
+        border-top: 0px solid; /* viewStyle  border top 0px*/
+        font-size: 5px; /* viewStyle  textSize 5px*/
+      "
+    >
+    대기압
+    </div>
+
+    <div
+    style="
+      position: absolute;
+      display: flex;
+      top: 170px; /* position x 0mm*/
+      left: 567px; /* position y 0mm*/
+      width: 94px; /* position w 100mm*/
+      height: 18px; /* position h 5mm*/
+      justify-content: center; /* viewStyle alignH  center*/
+      align-items: center; /* viewStyle alignV  center*/
+      border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+      border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+      border-left: 0px solid; /* viewStyle  border left 0px*/
+      border-top: 0px solid; /* viewStyle  border top 0px*/
+      font-size: 5px; /* viewStyle  textSize 5px*/
+    "
+  >
+  풍향
+  </div>
+
+  <div
+  style="
+    position: absolute;
+    display: flex;
+    top: 170px; /* position x 0mm*/
+    left: 643px; /* position y 0mm*/
+    width: 94px; /* position w 100mm*/
+    height: 18px; /* position h 5mm*/
+    justify-content: center; /* viewStyle alignH  center*/
+    align-items: center; /* viewStyle alignV  center*/
+    border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+    border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+    border-left: 0px solid; /* viewStyle  border left 0px*/
+    border-top: 0px solid; /* viewStyle  border top 0px*/
+    font-size: 5px; /* viewStyle  textSize 5px*/
+  "
+>
+풍속
+</div>
+
+<div
+  style="
+    position: absolute;
+    display: flex;
+    top: 189px; /* position x 0mm*/
+    left: 0; /* position y 0mm*/
+    width: 75px; /* position w 100mm*/
+    height: 18px; /* position h 5mm*/
+    justify-content: center; /* viewStyle alignH  center*/
+    align-items: center; /* viewStyle alignV  center*/
+    border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+    border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+    border-left: 0px solid; /* viewStyle  border left 0px*/
+    border-top: 0px solid; /* viewStyle  border top 0px*/
+    font-size: 5px; /* viewStyle  textSize 5px*/
+  "
+>
+meaDay
+</div>
+   <!-- new -->
+          <div
+            style="
+              position: absolute;
+              display: flex;
+              top: 189px; /* position x 0mm*/
+              left: 76px; /* position y 0mm*/
+              width: 76px; /* position w 100mm*/
+              height: 18px; /* position h 5mm*/
+              justify-content: center; /* viewStyle alignH  center*/
+              align-items: center; /* viewStyle alignV  center*/
+              border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+              border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+              border-left: 0px solid; /* viewStyle  border left 0px*/
+              border-top: 0px solid; /* viewStyle  border top 0px*/
+              font-size: 5px; /* viewStyle  textSize 5px*/
+            "
+          >
+          samplingRegNumber
+          </div>
+
+          <div
+            style="
+              position: absolute;
+              display: flex;
+              top: 189px; /* position x 0mm*/
+              left: 151px; /* position y 0mm*/
+              width: 38px; /* position w 100mm*/
+              height: 18px; /* position h 5mm*/
+              justify-content: center; /* viewStyle alignH  center*/
+              align-items: center; /* viewStyle alignV  center*/
+              border-right: 0px solid; /* viewStyle  border right 0.5 px*/
+              border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+              border-left: 0px solid; /* viewStyle  border left 0px*/
+              border-top: 0px solid; /* viewStyle  border top 0px*/
+              font-size: 5px; /* viewStyle  textSize 5px*/
+            "
+          >
+          meaStartTime
+          </div>
+
+          <div
+            style="
+              position: absolute;
+              display: flex;
+              top: 189px; /* position x 0mm*/
+              left: 189px; /* position y 0mm*/
+              width: 19px; /* position w 100mm*/
+              height: 18px; /* position h 5mm*/
+              justify-content: center; /* viewStyle alignH  center*/
+              align-items: center; /* viewStyle alignV  center*/
+              border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+              border-left: 0px solid; /* viewStyle  border left 0px*/
+              border-right: 0px solid; /* viewStyle  border right 0.5 px*/
+              border-top: 0px solid; /* viewStyle  border top 0px*/
+              font-size: 5px; /* viewStyle  textSize 5px*/
+            "
+          >
+          ~
+          </div>
+
+         <div
+            style="
+              position: absolute;
+              display: flex;
+              top: 189px; /* position x 0mm*/
+              left: 208px; /* position y 0mm*/
+              width: 38px; /* position w 100mm*/
+              height: 18px; /* position h 5mm*/
+              justify-content: center; /* viewStyle alignH  center*/
+              align-items: center; /* viewStyle alignV  center*/
+              border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+              border-left: 0px solid; /* viewStyle  border left 0px*/
+              border-top: 0px solid; /* viewStyle  border top 0px*/
+              border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+              font-size: 5px; /* viewStyle  textSize 5px*/
+            "
+          >
+          meaEndTime
+          </div>
+
+                  <div
+          style="
+            position: absolute;
+            display: flex;
+            top: 189px; /* position x 0mm*/
+            left: 246px; /* position y 0mm*/
+            width: 76px; /* position w 100mm*/
+            height: 18px; /* position h 5mm*/
+            justify-content: center; /* viewStyle alignH  center*/
+            align-items: center; /* viewStyle alignV  center*/
+            border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+            border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+            border-left: 0px solid; /* viewStyle  border left 0px*/
+            border-top: 0px solid; /* viewStyle  border top 0px*/
+            font-size: 5px; /* viewStyle  textSize 5px*/
+          "
+        >
+        temperature
+        </div>
+
+
+
+          <div
+            style="
+              position: absolute;
+              display: flex;
+              top: 189px; /* position x 0mm*/
+              left: 322px; /* position y 0mm*/
+              width: 49px; /* position w 100mm*/
+              height: 18px; /* position h 5mm*/
+              justify-content: center; /* viewStyle alignH  center*/
+              align-items: center; /* viewStyle alignV  center*/
+              border-right: 0px solid; /* viewStyle  border right 0.5 px*/
+              border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+              border-left: 0px solid; /* viewStyle  border left 0px*/
+              border-top: 0px solid; /* viewStyle  border top 0px*/
+              font-size: 5px; /* viewStyle  textSize 5px*/
+            "
+          >
+          temperature
+          </div>
+
+          <div
+            style="
+              position: absolute;
+              display: flex;
+              top: 189px; /* position x 0mm*/
+              left: 371px; /* position y 0mm*/
+              width: 27px; /* position w 100mm*/
+              height: 18px; /* position h 5mm*/
+              justify-content: center; /* viewStyle alignH  center*/
+              align-items: center; /* viewStyle alignV  center*/
+              border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+              border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+              border-left: 0px solid; /* viewStyle  border left 0px*/
+              border-top: 0px solid; /* viewStyle  border top 0px*/
+              font-size: 5px; /* viewStyle  textSize 5px*/
+            "
+          >
+          ˚C
+          </div>
+
+
+          <div
+            style="
+              position: absolute;
+              display: flex;
+              top: 189px; /* position x 0mm*/
+              left: 397px; /* position y 0mm*/
+              width: 68px; /* position w 100mm*/
+              height: 18px; /* position h 5mm*/
+              justify-content: center; /* viewStyle alignH  center*/
+              align-items: center; /* viewStyle alignV  center*/
+              border-right: 0px solid; /* viewStyle  border right 0.5 px*/
+              border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+              border-left: 0px solid; /* viewStyle  border left 0px*/
+              border-top: 0px solid; /* viewStyle  border top 0px*/
+              font-size: 5px; /* viewStyle  textSize 5px*/
+            "
+          >
+          humidity
+          </div>
+
+          <div
+            style="
+              position: absolute;
+              display: flex;
+              top: 189px; /* position x 0mm*/
+              left: 465px; /* position y 0mm*/
+              width: 27px; /* position w 100mm*/
+              height: 18px; /* position h 5mm*/
+              justify-content: center; /* viewStyle alignH  center*/
+              align-items: center; /* viewStyle alignV  center*/
+              border-right: 0.5px solid; /* viewStyle  border right 0.5 px*/
+              border-bottom: 0.5px solid; /* viewStyle  border bottom 0.5 px */
+              border-left: 0px solid; /* viewStyle  border left 0px*/
+              border-top: 0px solid; /* viewStyle  border top 0px*/
+              font-size: 5px; /* viewStyle  textSize 5px*/
+            "
+          >
+          %
+          </div> 
+     
+
+      </div>
+    </div>
+  </body>
+</html>
